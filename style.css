@@ -1,5 +1,5 @@
 body {
-    background-color: #F2F2F2;
+    background-color: rgb(213, 225, 239);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,9 +11,11 @@ body {
     flex-direction: column;
     border: 16px solid white;   
     border-radius: 4%;
-    margin: 8rem 560px;
+    margin: 4rem 560px;
     background-color: white;
     padding: 0% ;
+    max-width: 320px;
+    max-height: 497px;
 }
 
 .qrcode__imagem {
@@ -49,3 +51,9 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding-top: 90px;
+    }
+  }
