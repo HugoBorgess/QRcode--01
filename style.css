@@ -1,0 +1,45 @@
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qrcode {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 16px solid white;   
+    border-radius: 4%;
+    margin: 152px 560px;
+    background-color: white;
+}
+
+.qrcode__imagem {
+    height: 288px;
+    border-radius: 4%;
+}
+
+.qrcode__titulo {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 5%;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.qrcode__texto {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7D889E;
+    padding: 5%;
+}
+
+.attribution {
+    display: flex;
+    padding: 2px;
+}
